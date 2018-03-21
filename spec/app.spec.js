@@ -5,5 +5,10 @@ describe("app.js", () => {
 			const underTest = new Developer(name);
 			expect(underTest.getName()).toEqual(name);
 		});
+		it("should have a username", () => {
+			const username = "alexjamesmalcolm"
+			const underTest = new Developer("", username);
+			expect(underTest.getUsername()).toEqual(username);
+		});
 	});
 });

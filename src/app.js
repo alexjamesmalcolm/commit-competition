@@ -1,5 +1,8 @@
 function Developer() {
 	this.getName = () => {
-		return 'Alex';
+		return "Alex";
+	};
+	this.getUsername = () => {
+		return "alexjamesmalcolm";
 	};
 }
