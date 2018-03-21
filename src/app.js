@@ -5,4 +5,7 @@ function Developer() {
 	this.getUsername = () => {
 		return "alexjamesmalcolm";
 	};
+	this.getTeam = () => {
+		return "team 1";
+	};
 }
